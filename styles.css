@@ -1,13 +1,60 @@
 /* This is the stylesheet for the FAQ Accordion component*/
 
 body {
+  display:flex;
+  justify-content:center;
+  align-items: center;
   background-image: url("./assets/images/background-pattern-desktop.svg");
-  background-size:100%, 25vh;
+  background-size:100%, 30vh;
   background-position:top;
   background-repeat:no-repeat;
   background-color:hsl(275, 100%, 97%);
-  /* height:100vh; */
+  height:10vh;
   margin:0;
   
 }
 
+.card {
+  align-items: center;
+  background:hsl(0, 0%, 100%);
+  height:40vh; 
+  width:40%;
+  margin-top:50%;
+  border-radius:3%;
+
+}
+
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url("./assets/fonts/static/WorkSans-Bold.ttf");
+  }
+
+.card_header {
+  display:inline-flex;
+  align-items: center;
+  justify-content: left;
+  font-family:"WorkSans-Bold";
+  font-size:3.5vw;
+  color:hsl(292, 42%, 14%);
+  margin-top:2vh;
+  margin-bottom:2vh;
+ 
+}
+
+.star {
+display:inline-flex;
+  margin: 2vw;
+}
+
+.accordian {
+  margin-left:2vw;
+    
+}
+
+.accordian1 {
+  display:flex;
+  align-items: center;
+  font-size:60%;
+  font-family:"WorkSans-Bold";
+    
+}
