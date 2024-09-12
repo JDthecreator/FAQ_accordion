@@ -17,9 +17,9 @@ body {
 .card {
   align-items: center;
   background:hsl(0, 0%, 100%);
-  height:40vh; 
-  width:40%;
-  margin-top:50%;
+  height:auto; 
+  width:45%;
+  margin-top:45%;
   border-radius:3%;
 
 }
@@ -27,6 +27,11 @@ body {
 @font-face {
     font-family: "WorkSans-Bold";
     src: url("./assets/fonts/static/WorkSans-Bold.ttf");
+  }
+
+  @font-face {
+    font-family: "WorkSans-Regular";
+    src: url("./assets/fonts/static/WorkSans-Regular.ttf");
   }
 
 .card_header {
@@ -37,24 +42,86 @@ body {
   font-size:3.5vw;
   color:hsl(292, 42%, 14%);
   margin-top:2vh;
-  margin-bottom:2vh;
- 
+   
 }
 
 .star {
 display:inline-flex;
-  margin: 2vw;
+  margin: 2vh 2vw 2vh 2vw;
 }
 
-.accordian {
-  margin-left:2vw;
+.accordianC {    
+  display:block;
+  
+
+
+  
+
     
 }
 
-.accordian1 {
+.accordianQ {
   display:flex;
   align-items: center;
-  font-size:60%;
+  justify-content: space-between;
+  margin:1vh 1vw 1vh 1vw;
+  font-size:50%;
   font-family:"WorkSans-Bold";
+     
+}
+
+.panelbutton {
+  display:flex;
+  justify-content:flex-end;
+  border:none;
+  background:none; 
     
 }
+
+.panel1{
+  /* display:none; */
+  font-size: 40%;
+  font-family: "WorkSans-Regular";
+  margin-left: 2vw;
+  margin-right: 2vw;  
+
+}
+
+.panel1{
+    /* display:none; */
+    font-size: 40%;
+    font-family: "WorkSans-Regular";
+    margin-left: 2vw;
+    margin-right: 2vw;  
+  
+  }
+
+  .panel2{
+    /* display:none; */
+    font-size: 40%;
+    font-family: "WorkSans-Regular";
+    margin-left: 2vw;
+    margin-right: 2vw;  
+  
+  }
+
+  .panel3{
+    /* display:none; */
+    font-size: 40%;
+    font-family: "WorkSans-Regular";
+    margin-left: 2vw;
+    margin-right: 2vw;  
+  
+  }
+
+  .panel4{
+    /* display:none; */
+    font-size: 40%;
+    font-family: "WorkSans-Regular";
+    margin-left: 2vw;
+    margin-right: 2vw;
+      
+  
+  }
+  
+
