@@ -1,0 +1,13 @@
+/* This is the stylesheet for the FAQ Accordion component*/
+
+body {
+  background-image: url("./assets/images/background-pattern-desktop.svg");
+  background-size:100%, 25vh;
+  background-position:top;
+  background-repeat:no-repeat;
+  background-color:hsl(275, 100%, 97%);
+  /* height:100vh; */
+  margin:0;
+  
+}
+
