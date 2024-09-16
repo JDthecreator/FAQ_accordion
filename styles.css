@@ -65,7 +65,7 @@ display:inline-flex;
   align-items: center;
   justify-content: space-between;
   margin:1vh 1vw 1vh 1vw;
-  font-size:50%;
+  font-size:80%;
   font-family:"WorkSans-Bold";
      
 }
@@ -80,7 +80,7 @@ display:inline-flex;
 
 .panel1{
     display:none;
-    font-size: 40%;
+    font-size:70%;
     font-family: "WorkSans-Regular";
     margin-left: 2vw;
     margin-right: 2vw;  
@@ -89,7 +89,7 @@ display:inline-flex;
 
   .panel2{
     display:none;
-    font-size: 40%;
+    font-size: 70%;
     font-family: "WorkSans-Regular";
     margin-left: 2vw;
     margin-right: 2vw;  
@@ -98,7 +98,7 @@ display:inline-flex;
 
   .panel3{
     display:none;
-    font-size: 40%;
+    font-size: 70%;
     font-family: "WorkSans-Regular";
     margin-left: 2vw;
     margin-right: 2vw;  
@@ -107,7 +107,7 @@ display:inline-flex;
 
   .panel4{
     display:none;
-    font-size: 40%;
+    font-size: 70%;
     font-family: "WorkSans-Regular";
     margin-left: 2vw;
     margin-right: 2vw;
